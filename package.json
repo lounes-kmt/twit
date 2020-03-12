@@ -2,7 +2,7 @@
   "name": "twit",
   "description": "Twitter API client for node (REST & Streaming)",
   "version": "2.2.11",
-  "author": "Tolga Tezel",
+  "author": "Originally Tolga Tezel, forked by Lounès Ksouri",
   "keywords": [
     "twitter",
     "api",
@@ -31,7 +31,7 @@
   "main": "./lib/twitter",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ttezel/twit.git"
+    "url": "https://github.com/lounes-kmt/twit"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/* -t 70000 -R spec --bail --globals domain,_events,_maxListeners"
